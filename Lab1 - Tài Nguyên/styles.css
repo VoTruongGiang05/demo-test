@@ -1,0 +1,45 @@
+/* Nền sáng nhẹ cho navbar */
+.custom-navbar-bg {
+    background-color: #f8f9fa; /* Nền sáng giống như ảnh */
+    padding: 10px 0;
+}
+
+/* Tùy chỉnh cho logo */
+.navbar-brand img {
+    height: auto;
+    max-width: 150px; /* Đảm bảo logo không quá lớn */
+}
+
+/* Kiểu cho các mục điều hướng */
+.nav-link {
+    color: #333; /* Màu chữ tối hơn */
+    font-weight: 500;
+    margin-right: 15px; /* Khoảng cách giữa các mục */
+}
+
+.nav-link:hover {
+    color: #007bff; /* Đổi màu khi hover */
+}
+
+/* Kiểu cho dropdown */
+.dropdown-menu {
+    border-radius: 0.25rem; /* Bo góc nhẹ */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Đổ bóng cho menu */
+}
+
+/* Kiểu cho icon */
+.nav-link i {
+    margin-right: 5px;
+    color: #5a5a5a; /* Màu xám cho icon */
+}
+
+/* Kiểu cho ngôn ngữ ở góc phải */
+.navbar-nav.d-flex .nav-link {
+    font-weight: 500;
+    margin-left: 10px;
+    color: #333;
+}
+
+.navbar-nav.d-flex .nav-link:hover {
+    color: #007bff;
+}
